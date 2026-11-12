@@ -1,0 +1,14 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated datasets (rebuild with make_synthetic.py / tools/) and Wikimedia downloads
+data/
+
+# Scratch runs and in-progress checkpoints
+work/
+models/*.last.pt
+models/boltnet_v3_ft*
+results/*.cases.jsonl

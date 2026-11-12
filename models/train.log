@@ -1,0 +1,188 @@
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth" to /Users/student/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth
+1.3%2.5%3.8%5.1%6.4%7.6%8.9%10.2%11.4%12.7%14.0%15.3%16.5%17.8%19.1%20.3%21.6%22.9%24.2%25.4%26.7%28.0%29.2%30.5%31.8%33.1%34.3%35.6%36.9%38.2%39.4%40.7%42.0%43.2%44.5%45.8%47.1%48.3%49.6%50.9%52.1%53.4%54.7%56.0%57.2%58.5%59.8%61.0%62.3%63.6%64.9%66.1%67.4%68.7%69.9%71.2%72.5%73.8%75.0%76.3%77.6%78.8%80.1%81.4%82.7%83.9%85.2%86.5%87.7%89.0%90.3%91.6%92.8%94.1%95.4%96.7%97.9%99.2%100.0%
+  epoch 1 step 50/900 loss 4.4134
+  epoch 1 step 100/900 loss 4.1570
+  epoch 1 step 150/900 loss 3.9807
+  epoch 1 step 200/900 loss 3.8503
+  epoch 1 step 250/900 loss 3.7454
+  epoch 1 step 300/900 loss 3.6590
+  epoch 1 step 350/900 loss 3.5843
+  epoch 1 step 400/900 loss 3.5177
+  epoch 1 step 450/900 loss 3.4589
+  epoch 1 step 500/900 loss 3.4030
+  epoch 1 step 550/900 loss 3.3518
+  epoch 1 step 600/900 loss 3.3075
+  epoch 1 step 650/900 loss 3.2660
+  epoch 1 step 700/900 loss 3.2282
+  epoch 1 step 750/900 loss 3.1929
+  epoch 1 step 800/900 loss 3.1602
+  epoch 1 step 850/900 loss 3.1274
+  epoch 1 step 900/900 loss 3.0955
+epoch 1: train loss 3.0955
+  val [data/synth_mix] bolt/not 87.8%  diam ±1.71mm  len ±8.33mm  system 57.1%  type 28.7%  fully correct 42.3%
+  val [data/synth] bolt/not 99.7%  diam ±1.61mm  len ±6.83mm  system 59.9%  type 33.8%  fully correct 1.2%
+  saved models/boltnet.pt
+  epoch 2 step 50/900 loss 2.5005
+  epoch 2 step 100/900 loss 2.4681
+  epoch 2 step 150/900 loss 2.4236
+  epoch 2 step 200/900 loss 2.3813
+  epoch 2 step 250/900 loss 2.3404
+  epoch 2 step 300/900 loss 2.2931
+  epoch 2 step 350/900 loss 2.2491
+  epoch 2 step 400/900 loss 2.2076
+  epoch 2 step 450/900 loss 2.1602
+  epoch 2 step 500/900 loss 2.1154
+  epoch 2 step 550/900 loss 2.0814
+  epoch 2 step 600/900 loss 2.0441
+  epoch 2 step 650/900 loss 2.0103
+  epoch 2 step 700/900 loss 1.9826
+  epoch 2 step 750/900 loss 1.9509
+  epoch 2 step 800/900 loss 1.9264
+  epoch 2 step 850/900 loss 1.9000
+  epoch 2 step 900/900 loss 1.8748
+epoch 2: train loss 1.8748
+  val [data/synth_mix] bolt/not 91.0%  diam ±0.73mm  len ±5.25mm  system 61.6%  type 66.5%  fully correct 48.8%
+  val [data/synth] bolt/not 99.7%  diam ±0.58mm  len ±4.07mm  system 64.7%  type 80.1%  fully correct 16.6%
+  saved models/boltnet.pt
+  epoch 3 step 50/900 loss 1.4009
+  epoch 3 step 100/900 loss 1.3899
+  epoch 3 step 150/900 loss 1.3999
+  epoch 3 step 200/900 loss 1.3868
+  epoch 3 step 250/900 loss 1.3867
+  epoch 3 step 300/900 loss 1.3818
+  epoch 3 step 350/900 loss 1.3652
+  epoch 3 step 400/900 loss 1.3586
+  epoch 3 step 450/900 loss 1.3581
+  epoch 3 step 500/900 loss 1.3529
+  epoch 3 step 550/900 loss 1.3508
+  epoch 3 step 600/900 loss 1.3467
+  epoch 3 step 650/900 loss 1.3388
+  epoch 3 step 700/900 loss 1.3319
+  epoch 3 step 750/900 loss 1.3234
+  epoch 3 step 800/900 loss 1.3168
+  epoch 3 step 850/900 loss 1.3086
+  epoch 3 step 900/900 loss 1.3038
+epoch 3: train loss 1.3038
+  val [data/synth_mix] bolt/not 92.7%  diam ±0.62mm  len ±3.88mm  system 67.3%  type 73.1%  fully correct 55.4%
+  val [data/synth] bolt/not 99.8%  diam ±0.52mm  len ±2.63mm  system 74.7%  type 85.7%  fully correct 33.6%
+  saved models/boltnet.pt
+  epoch 4 step 50/900 loss 1.2401
+  epoch 4 step 100/900 loss 1.1965
+  epoch 4 step 150/900 loss 1.1944
+  epoch 4 step 200/900 loss 1.1813
+  epoch 4 step 250/900 loss 1.1888
+  epoch 4 step 300/900 loss 1.1865
+  epoch 4 step 350/900 loss 1.1774
+  epoch 4 step 400/900 loss 1.1743
+  epoch 4 step 450/900 loss 1.1682
+  epoch 4 step 500/900 loss 1.1613
+  epoch 4 step 550/900 loss 1.1601
+  epoch 4 step 600/900 loss 1.1549
+  epoch 4 step 650/900 loss 1.1532
+  epoch 4 step 700/900 loss 1.1500
+  epoch 4 step 750/900 loss 1.1429
+  epoch 4 step 800/900 loss 1.1402
+  epoch 4 step 850/900 loss 1.1368
+  epoch 4 step 900/900 loss 1.1333
+epoch 4: train loss 1.1333
+  val [data/synth_mix] bolt/not 92.8%  diam ±0.51mm  len ±3.98mm  system 66.7%  type 73.1%  fully correct 56.9%
+  val [data/synth] bolt/not 99.8%  diam ±0.38mm  len ±2.64mm  system 73.4%  type 88.8%  fully correct 36.0%
+  saved models/boltnet.pt
+  epoch 5 step 50/900 loss 1.0626
+  epoch 5 step 100/900 loss 1.0373
+  epoch 5 step 150/900 loss 1.0562
+  epoch 5 step 200/900 loss 1.0422
+  epoch 5 step 250/900 loss 1.0274
+  epoch 5 step 300/900 loss 1.0279
+  epoch 5 step 350/900 loss 1.0264
+  epoch 5 step 400/900 loss 1.0296
+  epoch 5 step 450/900 loss 1.0261
+  epoch 5 step 500/900 loss 1.0223
+  epoch 5 step 550/900 loss 1.0186
+  epoch 5 step 600/900 loss 1.0157
+  epoch 5 step 650/900 loss 1.0154
+  epoch 5 step 700/900 loss 1.0137
+  epoch 5 step 750/900 loss 1.0106
+  epoch 5 step 800/900 loss 1.0070
+  epoch 5 step 850/900 loss 1.0086
+  epoch 5 step 900/900 loss 1.0068
+epoch 5: train loss 1.0068
+  val [data/synth_mix] bolt/not 93.5%  diam ±0.49mm  len ±3.58mm  system 70.5%  type 74.6%  fully correct 60.5%
+  val [data/synth] bolt/not 99.9%  diam ±0.34mm  len ±2.38mm  system 76.5%  type 89.6%  fully correct 41.6%
+  saved models/boltnet.pt
+  epoch 6 step 50/900 loss 0.9552
+  epoch 6 step 100/900 loss 0.9737
+  epoch 6 step 150/900 loss 0.9679
+  epoch 6 step 200/900 loss 0.9622
+  epoch 6 step 250/900 loss 0.9643
+  epoch 6 step 300/900 loss 0.9619
+  epoch 6 step 350/900 loss 0.9588
+  epoch 6 step 400/900 loss 0.9530
+  epoch 6 step 450/900 loss 0.9510
+  epoch 6 step 500/900 loss 0.9471
+  epoch 6 step 550/900 loss 0.9479
+  epoch 6 step 600/900 loss 0.9510
+  epoch 6 step 650/900 loss 0.9441
+  epoch 6 step 700/900 loss 0.9488
+  epoch 6 step 750/900 loss 0.9478
+  epoch 6 step 800/900 loss 0.9435
+  epoch 6 step 850/900 loss 0.9386
+  epoch 6 step 900/900 loss 0.9334
+epoch 6: train loss 0.9334
+  val [data/synth_mix] bolt/not 93.4%  diam ±0.42mm  len ±3.84mm  system 71.9%  type 78.1%  fully correct 59.6%
+  val [data/synth] bolt/not 99.9%  diam ±0.29mm  len ±3.01mm  system 80.0%  type 90.1%  fully correct 41.2%
+  epoch 7 step 50/900 loss 0.9250
+  epoch 7 step 100/900 loss 0.9529
+  epoch 7 step 150/900 loss 0.9362
+  epoch 7 step 200/900 loss 0.9228
+  epoch 7 step 250/900 loss 0.9126
+  epoch 7 step 300/900 loss 0.9071
+  epoch 7 step 350/900 loss 0.9055
+  epoch 7 step 400/900 loss 0.9031
+  epoch 7 step 450/900 loss 0.8964
+  epoch 7 step 500/900 loss 0.8984
+  epoch 7 step 550/900 loss 0.8974
+  epoch 7 step 600/900 loss 0.8985
+  epoch 7 step 650/900 loss 0.8995
+  epoch 7 step 700/900 loss 0.8978
+  epoch 7 step 750/900 loss 0.8968
+  epoch 7 step 800/900 loss 0.8981
+  epoch 7 step 850/900 loss 0.8937
+  epoch 7 step 900/900 loss 0.8912
+epoch 7: train loss 0.8912
+  val [data/synth_mix] bolt/not 93.7%  diam ±0.45mm  len ±3.06mm  system 72.8%  type 77.6%  fully correct 62.3%
+  val [data/synth] bolt/not 99.8%  diam ±0.32mm  len ±2.14mm  system 80.7%  type 91.3%  fully correct 50.7%
+  saved models/boltnet.pt
+  epoch 8 step 50/900 loss 0.8377
+  epoch 8 step 100/900 loss 0.8328
+  epoch 8 step 150/900 loss 0.8561
+  epoch 8 step 200/900 loss 0.8580
+  epoch 8 step 250/900 loss 0.8486
+  epoch 8 step 300/900 loss 0.8441
+  epoch 8 step 350/900 loss 0.8431
+  epoch 8 step 400/900 loss 0.8421
+  epoch 8 step 450/900 loss 0.8448
+  epoch 8 step 500/900 loss 0.8439
+  epoch 8 step 550/900 loss 0.8424
+  epoch 8 step 600/900 loss 0.8451
+  epoch 8 step 650/900 loss 0.8422
+  epoch 8 step 700/900 loss 0.8440
+  epoch 8 step 750/900 loss 0.8424
+  epoch 8 step 800/900 loss 0.8409
+  epoch 8 step 850/900 loss 0.8376
+  epoch 8 step 900/900 loss 0.8362
+epoch 8: train loss 0.8362
+  val [data/synth_mix] bolt/not 94.0%  diam ±0.40mm  len ±2.88mm  system 71.1%  type 78.9%  fully correct 64.8%
+  val [data/synth] bolt/not 99.9%  diam ±0.26mm  len ±1.88mm  system 82.0%  type 91.1%  fully correct 58.4%
+  saved models/boltnet.pt
+  epoch 9 step 50/900 loss 0.8364
+  epoch 9 step 100/900 loss 0.8128
+  epoch 9 step 150/900 loss 0.8198
+  epoch 9 step 200/900 loss 0.8183
+  epoch 9 step 250/900 loss 0.8193
+  epoch 9 step 300/900 loss 0.8123
+  epoch 9 step 350/900 loss 0.8122
+  epoch 9 step 400/900 loss 0.8144
+  epoch 9 step 450/900 loss 0.8138
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:479: UserWarning: resource_tracker: There appear to be 26 leaked semaphore objects to clean up at shutdown: {'/mp-05izvy31', '/mp-yc56xfcw', '/mp-4yzpqdsi', '/mp-gcrldv6c', '/mp-fh52lrc3', '/mp-av5lemx_', '/mp-iv778zpw', '/mp-gux_rcsn', '/mp-_fsxdxil', '/mp-qbj3zt0k', '/mp-nio8ptah', '/mp-y86rm6aw', '/mp-o_10_dc0', '/mp-2kjswz4b', '/mp-gj9p7m1j', '/mp-oz12rsu7', '/mp-ks4ct4ny', '/mp-xj79f9f1', '/mp-rasoorjj', '/mp-nrh3uh8u', '/mp-lqjpmu41', '/mp-nk7ypy1z', '/mp-3watk05y', '/mp-g3sjbflw', '/mp-khgl7m5l', '/mp-oekiuh29'}
+  warnings.warn(

@@ -1,0 +1,412 @@
+{
+  "data/test_catalog_normal": {
+    "n": 281,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 215,
+        "neg_rejected": 54,
+        "neg_in_size": 0,
+        "size": 110,
+        "size_right": 92,
+        "bolt_size_right": 92,
+        "review": 114,
+        "exact": 145,
+        "board_found": 275,
+        "neg_not_bolt": 54,
+        "outline_missing": 7,
+        "disagreement": 84,
+        "pitch_used": 55,
+        "pitch_correct": 54
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 215,
+        "neg_rejected": 54,
+        "neg_in_size": 0,
+        "size": 100,
+        "size_right": 88,
+        "bolt_size_right": 88,
+        "review": 124,
+        "exact": 154,
+        "board_found": 275,
+        "neg_not_bolt": 54,
+        "outline_missing": 7,
+        "disagreement": 88,
+        "pitch_used": 55,
+        "pitch_correct": 54
+      }
+    }
+  },
+  "data/test_catalog_heavy": {
+    "n": 281,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 193,
+        "neg_rejected": 48,
+        "neg_in_size": 0,
+        "size": 31,
+        "size_right": 17,
+        "bolt_size_right": 17,
+        "review": 191,
+        "exact": 51,
+        "board_found": 272,
+        "neg_not_bolt": 49,
+        "outline_missing": 29,
+        "disagreement": 102,
+        "pitch_used": 4,
+        "pitch_correct": 4
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 193,
+        "neg_rejected": 48,
+        "neg_in_size": 0,
+        "size": 30,
+        "size_right": 16,
+        "bolt_size_right": 16,
+        "review": 192,
+        "exact": 56,
+        "board_found": 272,
+        "neg_not_bolt": 49,
+        "outline_missing": 29,
+        "disagreement": 100,
+        "pitch_used": 4,
+        "pitch_correct": 4
+      }
+    }
+  },
+  "data/test_junk_normal": {
+    "n": 200,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 149,
+        "neg_in_size": 5,
+        "size": 5,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 46,
+        "exact": 0,
+        "board_found": 197,
+        "neg_not_bolt": 160,
+        "outline_missing": 9,
+        "disagreement": 16,
+        "pitch_used": 4,
+        "pitch_correct": 0
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 149,
+        "neg_in_size": 6,
+        "size": 6,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 45,
+        "exact": 0,
+        "board_found": 197,
+        "neg_not_bolt": 160,
+        "outline_missing": 9,
+        "disagreement": 15,
+        "pitch_used": 4,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_junk_heavy": {
+    "n": 200,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 81,
+        "neg_in_size": 4,
+        "size": 4,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 115,
+        "exact": 0,
+        "board_found": 191,
+        "neg_not_bolt": 103,
+        "outline_missing": 26,
+        "disagreement": 49,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 81,
+        "neg_in_size": 3,
+        "size": 3,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 116,
+        "exact": 0,
+        "board_found": 191,
+        "neg_not_bolt": 103,
+        "outline_missing": 26,
+        "disagreement": 45,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_ai_normal": {
+    "n": 45,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 30,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 15,
+        "exact": 0,
+        "board_found": 43,
+        "neg_not_bolt": 33,
+        "outline_missing": 0,
+        "disagreement": 10,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 30,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 15,
+        "exact": 0,
+        "board_found": 43,
+        "neg_not_bolt": 33,
+        "outline_missing": 0,
+        "disagreement": 10,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_ai_heavy": {
+    "n": 45,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 15,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 30,
+        "exact": 0,
+        "board_found": 43,
+        "neg_not_bolt": 24,
+        "outline_missing": 4,
+        "disagreement": 14,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 15,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 30,
+        "exact": 0,
+        "board_found": 43,
+        "neg_not_bolt": 24,
+        "outline_missing": 4,
+        "disagreement": 15,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_webhold_normal": {
+    "n": 295,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 96,
+        "neg_rejected": 146,
+        "neg_in_size": 0,
+        "size": 4,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 127,
+        "exact": 1,
+        "board_found": 290,
+        "neg_not_bolt": 156,
+        "outline_missing": 11,
+        "disagreement": 86,
+        "pitch_used": 2,
+        "pitch_correct": 2
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 96,
+        "neg_rejected": 146,
+        "neg_in_size": 0,
+        "size": 3,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 128,
+        "exact": 2,
+        "board_found": 290,
+        "neg_not_bolt": 156,
+        "outline_missing": 11,
+        "disagreement": 87,
+        "pitch_used": 2,
+        "pitch_correct": 2
+      }
+    }
+  },
+  "data/test_webhold_heavy": {
+    "n": 295,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 87,
+        "neg_rejected": 127,
+        "neg_in_size": 0,
+        "size": 2,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 150,
+        "exact": 1,
+        "board_found": 282,
+        "neg_not_bolt": 143,
+        "outline_missing": 24,
+        "disagreement": 78,
+        "pitch_used": 1,
+        "pitch_correct": 1
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 87,
+        "neg_rejected": 127,
+        "neg_in_size": 0,
+        "size": 1,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 151,
+        "exact": 2,
+        "board_found": 282,
+        "neg_not_bolt": 143,
+        "outline_missing": 24,
+        "disagreement": 80,
+        "pitch_used": 1,
+        "pitch_correct": 1
+      }
+    }
+  },
+  "data/v3_fresh_normal": {
+    "n": 400,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 300,
+        "neg_n": 100,
+        "bolt_kept": 289,
+        "neg_rejected": 93,
+        "neg_in_size": 0,
+        "size": 121,
+        "size_right": 102,
+        "bolt_size_right": 102,
+        "review": 183,
+        "exact": 196,
+        "board_found": 394,
+        "neg_not_bolt": 94,
+        "outline_missing": 14,
+        "disagreement": 128,
+        "pitch_used": 83,
+        "pitch_correct": 82
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 300,
+        "neg_n": 100,
+        "bolt_kept": 289,
+        "neg_rejected": 93,
+        "neg_in_size": 0,
+        "size": 121,
+        "size_right": 110,
+        "bolt_size_right": 110,
+        "review": 183,
+        "exact": 206,
+        "board_found": 394,
+        "neg_not_bolt": 94,
+        "outline_missing": 14,
+        "disagreement": 120,
+        "pitch_used": 84,
+        "pitch_correct": 83
+      }
+    }
+  },
+  "data/v3_fresh_heavy": {
+    "n": 400,
+    "models": {
+      "boltnet_v3": {
+        "bolt_n": 300,
+        "neg_n": 100,
+        "bolt_kept": 255,
+        "neg_rejected": 72,
+        "neg_in_size": 0,
+        "size": 37,
+        "size_right": 23,
+        "bolt_size_right": 23,
+        "review": 279,
+        "exact": 75,
+        "board_found": 387,
+        "neg_not_bolt": 77,
+        "outline_missing": 40,
+        "disagreement": 152,
+        "pitch_used": 11,
+        "pitch_correct": 11
+      },
+      "boltnet_v3_refined": {
+        "bolt_n": 300,
+        "neg_n": 100,
+        "bolt_kept": 255,
+        "neg_rejected": 72,
+        "neg_in_size": 0,
+        "size": 28,
+        "size_right": 23,
+        "bolt_size_right": 23,
+        "review": 288,
+        "exact": 96,
+        "board_found": 387,
+        "neg_not_bolt": 77,
+        "outline_missing": 40,
+        "disagreement": 152,
+        "pitch_used": 11,
+        "pitch_correct": 11
+      }
+    }
+  }
+}

@@ -1,0 +1,1154 @@
+[
+  {
+    "epoch": 1,
+    "loss": 2.648455438762903,
+    "score": 0.5509102564102564,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9935,
+        "diam_mae_mm": 0.26738922131061554,
+        "len_mae_mm": 1.9295748808383941,
+        "system_acc": 0.836,
+        "type_acc": 0.932,
+        "exact_acc": 0.604,
+        "mask_iou": 0.7662404877621991,
+        "fused_exact_acc": 0.655
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9533333333333334,
+        "diam_mae_mm": 0.3940377644579796,
+        "len_mae_mm": 2.805350340632322,
+        "system_acc": 0.7145214521452146,
+        "type_acc": 0.8151815181518152,
+        "exact_acc": 0.6591666666666667,
+        "mask_iou": 0.6778849928949224,
+        "fused_exact_acc": 0.6833333333333333
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.867,
+        "diam_mae_mm": 0.3267720362152716,
+        "len_mae_mm": 2.627030599960173,
+        "system_acc": 0.7353535353535353,
+        "type_acc": 0.8,
+        "exact_acc": 0.605,
+        "mask_iou": 0.5684998660235088,
+        "fused_exact_acc": 0.623
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9519230769230769,
+        "diam_mae_mm": 0.5424057842865391,
+        "len_mae_mm": 6.344652636470444,
+        "system_acc": 0.3779527559055118,
+        "type_acc": 0.32545931758530183,
+        "exact_acc": 0.24423076923076922,
+        "mask_iou": 0.6736195797790316,
+        "fused_exact_acc": 0.2423076923076923
+      }
+    },
+    "elapsed_s": 216.48810349999985
+  },
+  {
+    "epoch": 2,
+    "loss": 2.3066001765429975,
+    "score": 0.5386153846153846,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9945,
+        "diam_mae_mm": 0.282336927652359,
+        "len_mae_mm": 2.080996290922165,
+        "system_acc": 0.824,
+        "type_acc": 0.9295,
+        "exact_acc": 0.556,
+        "mask_iou": 0.7617712896384408,
+        "fused_exact_acc": 0.6345
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9533333333333334,
+        "diam_mae_mm": 0.40545746280808653,
+        "len_mae_mm": 2.920730027428555,
+        "system_acc": 0.7112211221122112,
+        "type_acc": 0.806930693069307,
+        "exact_acc": 0.6425,
+        "mask_iou": 0.674168166097863,
+        "fused_exact_acc": 0.6775
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.856,
+        "diam_mae_mm": 0.3480029756372625,
+        "len_mae_mm": 2.7748290013785315,
+        "system_acc": 0.7535353535353535,
+        "type_acc": 0.8080808080808081,
+        "exact_acc": 0.583,
+        "mask_iou": 0.5660379085794658,
+        "fused_exact_acc": 0.604
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9519230769230769,
+        "diam_mae_mm": 0.5159863900011918,
+        "len_mae_mm": 5.856389208415675,
+        "system_acc": 0.4409448818897638,
+        "type_acc": 0.2677165354330709,
+        "exact_acc": 0.2403846153846154,
+        "mask_iou": 0.7124943969296366,
+        "fused_exact_acc": 0.23846153846153847
+      }
+    },
+    "elapsed_s": 449.36752079099824
+  },
+  {
+    "epoch": 3,
+    "loss": 2.155946408957243,
+    "score": 0.5559326923076923,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9905,
+        "diam_mae_mm": 0.2665187475681305,
+        "len_mae_mm": 2.0295293405056,
+        "system_acc": 0.841,
+        "type_acc": 0.9255,
+        "exact_acc": 0.5765,
+        "mask_iou": 0.7647379057962517,
+        "fused_exact_acc": 0.6695
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9558333333333333,
+        "diam_mae_mm": 0.3959454423917009,
+        "len_mae_mm": 2.90830130388241,
+        "system_acc": 0.7244224422442245,
+        "type_acc": 0.8003300330033003,
+        "exact_acc": 0.6641666666666667,
+        "mask_iou": 0.6772814577398907,
+        "fused_exact_acc": 0.695
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.866,
+        "diam_mae_mm": 0.33001365661621096,
+        "len_mae_mm": 2.824885456971448,
+        "system_acc": 0.7434343434343434,
+        "type_acc": 0.804040404040404,
+        "exact_acc": 0.588,
+        "mask_iou": 0.5710562874029317,
+        "fused_exact_acc": 0.615
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9365384615384615,
+        "diam_mae_mm": 0.5091050077923952,
+        "len_mae_mm": 5.9926594661602515,
+        "system_acc": 0.28083989501312334,
+        "type_acc": 0.26246719160104987,
+        "exact_acc": 0.24615384615384617,
+        "mask_iou": 0.7239395669434181,
+        "fused_exact_acc": 0.24423076923076922
+      }
+    },
+    "elapsed_s": 654.2683250000046
+  },
+  {
+    "epoch": 4,
+    "loss": 2.1063472121953963,
+    "score": 0.5472596153846153,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.993,
+        "diam_mae_mm": 0.3151860282421112,
+        "len_mae_mm": 2.0104741456508637,
+        "system_acc": 0.823,
+        "type_acc": 0.9275,
+        "exact_acc": 0.537,
+        "mask_iou": 0.7742941625228339,
+        "fused_exact_acc": 0.6285
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9516666666666667,
+        "diam_mae_mm": 0.4306859907143974,
+        "len_mae_mm": 2.8452096984724795,
+        "system_acc": 0.7227722772277227,
+        "type_acc": 0.8052805280528053,
+        "exact_acc": 0.6475,
+        "mask_iou": 0.6960822968507558,
+        "fused_exact_acc": 0.685
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.875,
+        "diam_mae_mm": 0.38038769105468134,
+        "len_mae_mm": 2.7160854060240465,
+        "system_acc": 0.7313131313131314,
+        "type_acc": 0.804040404040404,
+        "exact_acc": 0.581,
+        "mask_iou": 0.5966979708003017,
+        "fused_exact_acc": 0.614
+      },
+      "data/train_web": {
+        "bolt_acc": 0.948076923076923,
+        "diam_mae_mm": 0.5986710095343002,
+        "len_mae_mm": 6.741092867112848,
+        "system_acc": 0.3989501312335958,
+        "type_acc": 0.2440944881889764,
+        "exact_acc": 0.26346153846153847,
+        "mask_iou": 0.7493788340767115,
+        "fused_exact_acc": 0.26153846153846155
+      }
+    },
+    "elapsed_s": 869.2224527500002
+  },
+  {
+    "epoch": 5,
+    "loss": 1.9505987476557494,
+    "score": 0.5573301282051283,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.993,
+        "diam_mae_mm": 0.29125809717178347,
+        "len_mae_mm": 1.9666808621883392,
+        "system_acc": 0.829,
+        "type_acc": 0.931,
+        "exact_acc": 0.573,
+        "mask_iou": 0.757018741014585,
+        "fused_exact_acc": 0.66
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.95,
+        "diam_mae_mm": 0.4123238222827219,
+        "len_mae_mm": 2.8080183310870686,
+        "system_acc": 0.7260726072607261,
+        "type_acc": 0.8118811881188119,
+        "exact_acc": 0.6691666666666667,
+        "mask_iou": 0.6721020601213298,
+        "fused_exact_acc": 0.6991666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.865,
+        "diam_mae_mm": 0.34671088420983515,
+        "len_mae_mm": 2.6102468211241443,
+        "system_acc": 0.7393939393939394,
+        "type_acc": 0.806060606060606,
+        "exact_acc": 0.599,
+        "mask_iou": 0.5655927818554509,
+        "fused_exact_acc": 0.624
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9711538461538461,
+        "diam_mae_mm": 0.5498448369384125,
+        "len_mae_mm": 6.870068883019795,
+        "system_acc": 0.3963254593175853,
+        "type_acc": 0.4776902887139108,
+        "exact_acc": 0.24807692307692308,
+        "mask_iou": 0.7414440542092812,
+        "fused_exact_acc": 0.24615384615384617
+      }
+    },
+    "elapsed_s": 1117.3219444159986
+  },
+  {
+    "epoch": 6,
+    "loss": 1.9481324449181556,
+    "score": 0.566426282051282,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9925,
+        "diam_mae_mm": 0.2839738019704819,
+        "len_mae_mm": 2.0294840626716613,
+        "system_acc": 0.8345,
+        "type_acc": 0.9265,
+        "exact_acc": 0.564,
+        "mask_iou": 0.7812814573118685,
+        "fused_exact_acc": 0.6755
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9541666666666667,
+        "diam_mae_mm": 0.41278024435830196,
+        "len_mae_mm": 2.910667096820995,
+        "system_acc": 0.7227722772277227,
+        "type_acc": 0.8036303630363036,
+        "exact_acc": 0.6633333333333333,
+        "mask_iou": 0.7039151659106232,
+        "fused_exact_acc": 0.7016666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.868,
+        "diam_mae_mm": 0.34880278423579053,
+        "len_mae_mm": 2.6679774910512597,
+        "system_acc": 0.7474747474747475,
+        "type_acc": 0.7919191919191919,
+        "exact_acc": 0.589,
+        "mask_iou": 0.6092592612557186,
+        "fused_exact_acc": 0.627
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9673076923076923,
+        "diam_mae_mm": 0.48617713783043887,
+        "len_mae_mm": 7.154167921211463,
+        "system_acc": 0.3858267716535433,
+        "type_acc": 0.37270341207349084,
+        "exact_acc": 0.26153846153846155,
+        "mask_iou": 0.7593774827094921,
+        "fused_exact_acc": 0.26153846153846155
+      }
+    },
+    "elapsed_s": 1346.3188064580027
+  },
+  {
+    "epoch": 7,
+    "loss": 1.9413219034671783,
+    "score": 0.5616570512820513,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.986,
+        "diam_mae_mm": 0.3779130498170853,
+        "len_mae_mm": 2.008731967687607,
+        "system_acc": 0.8195,
+        "type_acc": 0.9285,
+        "exact_acc": 0.535,
+        "mask_iou": 0.7907324174511474,
+        "fused_exact_acc": 0.65
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9516666666666667,
+        "diam_mae_mm": 0.46938379723640167,
+        "len_mae_mm": 2.9133823224813633,
+        "system_acc": 0.7112211221122112,
+        "type_acc": 0.8184818481848185,
+        "exact_acc": 0.6608333333333334,
+        "mask_iou": 0.7103138594917977,
+        "fused_exact_acc": 0.6941666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.873,
+        "diam_mae_mm": 0.3990569105051985,
+        "len_mae_mm": 2.6684176396841957,
+        "system_acc": 0.7373737373737373,
+        "type_acc": 0.802020202020202,
+        "exact_acc": 0.602,
+        "mask_iou": 0.6190865150946945,
+        "fused_exact_acc": 0.639
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9788461538461538,
+        "diam_mae_mm": 0.4873519419372238,
+        "len_mae_mm": 7.094034365155879,
+        "system_acc": 0.4776902887139108,
+        "type_acc": 0.3884514435695538,
+        "exact_acc": 0.26346153846153847,
+        "mask_iou": 0.7667427983053258,
+        "fused_exact_acc": 0.26346153846153847
+      }
+    },
+    "elapsed_s": 1568.8744923330014
+  },
+  {
+    "epoch": 8,
+    "loss": 1.8867572262883185,
+    "score": 0.5683685897435897,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9945,
+        "diam_mae_mm": 0.29698901998996735,
+        "len_mae_mm": 2.1177304866313933,
+        "system_acc": 0.8225,
+        "type_acc": 0.9235,
+        "exact_acc": 0.5615,
+        "mask_iou": 0.7867717527106483,
+        "fused_exact_acc": 0.672
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.95,
+        "diam_mae_mm": 0.4109314656493687,
+        "len_mae_mm": 2.974874547605861,
+        "system_acc": 0.7112211221122112,
+        "type_acc": 0.8052805280528053,
+        "exact_acc": 0.6575,
+        "mask_iou": 0.7091340933036372,
+        "fused_exact_acc": 0.7041666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.861,
+        "diam_mae_mm": 0.3611286062182802,
+        "len_mae_mm": 2.7572293252655955,
+        "system_acc": 0.7333333333333333,
+        "type_acc": 0.8080808080808081,
+        "exact_acc": 0.592,
+        "mask_iou": 0.6149991988729171,
+        "fused_exact_acc": 0.63
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9384615384615385,
+        "diam_mae_mm": 0.44685504442750623,
+        "len_mae_mm": 5.721648854533519,
+        "system_acc": 0.4461942257217848,
+        "type_acc": 0.48031496062992124,
+        "exact_acc": 0.27692307692307694,
+        "mask_iou": 0.7642917084737177,
+        "fused_exact_acc": 0.2673076923076923
+      }
+    },
+    "elapsed_s": 1801.8260646249983
+  },
+  {
+    "epoch": 9,
+    "loss": 1.9299147479236125,
+    "score": 0.570349358974359,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.991,
+        "diam_mae_mm": 0.29483069670200346,
+        "len_mae_mm": 2.1034303538799284,
+        "system_acc": 0.821,
+        "type_acc": 0.929,
+        "exact_acc": 0.518,
+        "mask_iou": 0.7974577798114801,
+        "fused_exact_acc": 0.668
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9533333333333334,
+        "diam_mae_mm": 0.40811303621864947,
+        "len_mae_mm": 2.894500728487575,
+        "system_acc": 0.7079207920792079,
+        "type_acc": 0.8151815181518152,
+        "exact_acc": 0.6475,
+        "mask_iou": 0.7174671603989436,
+        "fused_exact_acc": 0.7041666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.873,
+        "diam_mae_mm": 0.3538571935711485,
+        "len_mae_mm": 2.8571785647459707,
+        "system_acc": 0.7373737373737373,
+        "type_acc": 0.8,
+        "exact_acc": 0.593,
+        "mask_iou": 0.6257327383452564,
+        "fused_exact_acc": 0.64
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9653846153846154,
+        "diam_mae_mm": 0.44746518447956074,
+        "len_mae_mm": 8.495377703288721,
+        "system_acc": 0.5249343832020997,
+        "type_acc": 0.45144356955380577,
+        "exact_acc": 0.2692307692307692,
+        "mask_iou": 0.7721901283368554,
+        "fused_exact_acc": 0.2692307692307692
+      }
+    },
+    "elapsed_s": 2031.1577132910024
+  },
+  {
+    "epoch": 10,
+    "loss": 1.8743232280015945,
+    "score": 0.5726153846153846,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9925,
+        "diam_mae_mm": 0.3258781476020813,
+        "len_mae_mm": 1.9905686073303224,
+        "system_acc": 0.827,
+        "type_acc": 0.926,
+        "exact_acc": 0.5755,
+        "mask_iou": 0.7983217987390755,
+        "fused_exact_acc": 0.6795
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9525,
+        "diam_mae_mm": 0.4168567401741204,
+        "len_mae_mm": 2.777481403287881,
+        "system_acc": 0.7161716171617162,
+        "type_acc": 0.8217821782178217,
+        "exact_acc": 0.6675,
+        "mask_iou": 0.7182157250843806,
+        "fused_exact_acc": 0.7075
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.875,
+        "diam_mae_mm": 0.3611672492942425,
+        "len_mae_mm": 2.516028831944321,
+        "system_acc": 0.7353535353535353,
+        "type_acc": 0.802020202020202,
+        "exact_acc": 0.61,
+        "mask_iou": 0.6273997686926351,
+        "fused_exact_acc": 0.64
+      },
+      "data/train_web": {
+        "bolt_acc": 0.975,
+        "diam_mae_mm": 0.4347111359043071,
+        "len_mae_mm": 5.6512862878834484,
+        "system_acc": 0.4409448818897638,
+        "type_acc": 0.35170603674540685,
+        "exact_acc": 0.27115384615384613,
+        "mask_iou": 0.7645787368465999,
+        "fused_exact_acc": 0.26346153846153847
+      }
+    },
+    "elapsed_s": 2259.8081515000013
+  },
+  {
+    "epoch": 11,
+    "loss": 1.8452273234724998,
+    "score": 0.5663044871794872,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9915,
+        "diam_mae_mm": 0.2721020690202713,
+        "len_mae_mm": 2.345186294555664,
+        "system_acc": 0.831,
+        "type_acc": 0.926,
+        "exact_acc": 0.5335,
+        "mask_iou": 0.7922573140060716,
+        "fused_exact_acc": 0.668
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9533333333333334,
+        "diam_mae_mm": 0.40143402063413813,
+        "len_mae_mm": 2.975888194030661,
+        "system_acc": 0.7046204620462047,
+        "type_acc": 0.8151815181518152,
+        "exact_acc": 0.645,
+        "mask_iou": 0.7138094724285255,
+        "fused_exact_acc": 0.7008333333333333
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.868,
+        "diam_mae_mm": 0.34290765030215486,
+        "len_mae_mm": 2.748925894920272,
+        "system_acc": 0.7373737373737373,
+        "type_acc": 0.8121212121212121,
+        "exact_acc": 0.593,
+        "mask_iou": 0.6267816526150898,
+        "fused_exact_acc": 0.631
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9673076923076923,
+        "diam_mae_mm": 0.522218604100345,
+        "len_mae_mm": 6.001149094949557,
+        "system_acc": 0.4566929133858268,
+        "type_acc": 0.48031496062992124,
+        "exact_acc": 0.27307692307692305,
+        "mask_iou": 0.7719528225592813,
+        "fused_exact_acc": 0.2653846153846154
+      }
+    },
+    "elapsed_s": 2494.932435875002
+  },
+  {
+    "epoch": 12,
+    "loss": 1.842544001340866,
+    "score": 0.5745192307692307,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.995,
+        "diam_mae_mm": 0.31511517238616943,
+        "len_mae_mm": 2.0544170496463776,
+        "system_acc": 0.8335,
+        "type_acc": 0.925,
+        "exact_acc": 0.54,
+        "mask_iou": 0.8005200160992744,
+        "fused_exact_acc": 0.6895
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9525,
+        "diam_mae_mm": 0.45064881296441106,
+        "len_mae_mm": 2.831242613273092,
+        "system_acc": 0.7062706270627063,
+        "type_acc": 0.8201320132013201,
+        "exact_acc": 0.6508333333333334,
+        "mask_iou": 0.719901906910317,
+        "fused_exact_acc": 0.7075
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.866,
+        "diam_mae_mm": 0.4150338124747228,
+        "len_mae_mm": 2.6818034393618806,
+        "system_acc": 0.7434343434343434,
+        "type_acc": 0.806060606060606,
+        "exact_acc": 0.576,
+        "mask_iou": 0.6359380467835116,
+        "fused_exact_acc": 0.628
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9788461538461538,
+        "diam_mae_mm": 0.5925024926193118,
+        "len_mae_mm": 6.660860592298933,
+        "system_acc": 0.47244094488188976,
+        "type_acc": 0.45931758530183725,
+        "exact_acc": 0.27692307692307694,
+        "mask_iou": 0.7761576053262651,
+        "fused_exact_acc": 0.27307692307692305
+      }
+    },
+    "elapsed_s": 2742.5448488330003
+  },
+  {
+    "epoch": 13,
+    "loss": 1.8243790943175555,
+    "score": 0.5807660256410256,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9915,
+        "diam_mae_mm": 0.2806113694906235,
+        "len_mae_mm": 1.8158041474819184,
+        "system_acc": 0.829,
+        "type_acc": 0.9285,
+        "exact_acc": 0.6075,
+        "mask_iou": 0.8050952275673197,
+        "fused_exact_acc": 0.691
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9525,
+        "diam_mae_mm": 0.416365380727812,
+        "len_mae_mm": 2.708603612660575,
+        "system_acc": 0.7062706270627063,
+        "type_acc": 0.8135313531353136,
+        "exact_acc": 0.675,
+        "mask_iou": 0.7280716559824763,
+        "fused_exact_acc": 0.7108333333333333
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.871,
+        "diam_mae_mm": 0.36565839497729985,
+        "len_mae_mm": 2.5755470218080463,
+        "system_acc": 0.7454545454545455,
+        "type_acc": 0.802020202020202,
+        "exact_acc": 0.609,
+        "mask_iou": 0.6449330410784236,
+        "fused_exact_acc": 0.652
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9653846153846154,
+        "diam_mae_mm": 0.5600401072364467,
+        "len_mae_mm": 6.54369057883115,
+        "system_acc": 0.4409448818897638,
+        "type_acc": 0.3805774278215223,
+        "exact_acc": 0.27115384615384613,
+        "mask_iou": 0.7767221149894752,
+        "fused_exact_acc": 0.2692307692307692
+      }
+    },
+    "elapsed_s": 2941.8356494160034
+  },
+  {
+    "epoch": 14,
+    "loss": 1.7472053289413452,
+    "score": 0.5758878205128205,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.994,
+        "diam_mae_mm": 0.28000725972652435,
+        "len_mae_mm": 1.9681505508422852,
+        "system_acc": 0.8255,
+        "type_acc": 0.928,
+        "exact_acc": 0.5605,
+        "mask_iou": 0.8037558893527978,
+        "fused_exact_acc": 0.6855
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9533333333333334,
+        "diam_mae_mm": 0.3976287385418077,
+        "len_mae_mm": 2.7780190017750552,
+        "system_acc": 0.7227722772277227,
+        "type_acc": 0.8234323432343235,
+        "exact_acc": 0.655,
+        "mask_iou": 0.7267556221136027,
+        "fused_exact_acc": 0.7166666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.869,
+        "diam_mae_mm": 0.35125524058486474,
+        "len_mae_mm": 2.5746989028622407,
+        "system_acc": 0.7313131313131314,
+        "type_acc": 0.797979797979798,
+        "exact_acc": 0.587,
+        "mask_iou": 0.646190288076921,
+        "fused_exact_acc": 0.636
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9730769230769231,
+        "diam_mae_mm": 0.48459067432273406,
+        "len_mae_mm": 5.957163653035802,
+        "system_acc": 0.5590551181102362,
+        "type_acc": 0.37270341207349084,
+        "exact_acc": 0.2692307692307692,
+        "mask_iou": 0.7790680754007221,
+        "fused_exact_acc": 0.2653846153846154
+      }
+    },
+    "elapsed_s": 3180.3819472500036
+  },
+  {
+    "epoch": 15,
+    "loss": 1.8537163987755776,
+    "score": 0.5764102564102563,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.997,
+        "diam_mae_mm": 0.3153498376607895,
+        "len_mae_mm": 1.9234281849861146,
+        "system_acc": 0.8265,
+        "type_acc": 0.93,
+        "exact_acc": 0.569,
+        "mask_iou": 0.8067133609498327,
+        "fused_exact_acc": 0.6845
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9508333333333333,
+        "diam_mae_mm": 0.4131154199637989,
+        "len_mae_mm": 2.7699222926652864,
+        "system_acc": 0.7178217821782178,
+        "type_acc": 0.8316831683168316,
+        "exact_acc": 0.6783333333333333,
+        "mask_iou": 0.7286143802368549,
+        "fused_exact_acc": 0.7108333333333333
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.869,
+        "diam_mae_mm": 0.354253654287319,
+        "len_mae_mm": 2.663949552208486,
+        "system_acc": 0.7474747474747475,
+        "type_acc": 0.806060606060606,
+        "exact_acc": 0.608,
+        "mask_iou": 0.6461013851643789,
+        "fused_exact_acc": 0.643
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9615384615384616,
+        "diam_mae_mm": 0.43945229397671115,
+        "len_mae_mm": 6.550642484129257,
+        "system_acc": 0.4304461942257218,
+        "type_acc": 0.4146981627296588,
+        "exact_acc": 0.27307692307692305,
+        "mask_iou": 0.7790526347006845,
+        "fused_exact_acc": 0.2673076923076923
+      }
+    },
+    "elapsed_s": 3391.722665583002
+  },
+  {
+    "epoch": 16,
+    "loss": 1.806882356479764,
+    "score": 0.585349358974359,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.992,
+        "diam_mae_mm": 0.2615065858364105,
+        "len_mae_mm": 1.8585593695640563,
+        "system_acc": 0.8285,
+        "type_acc": 0.93,
+        "exact_acc": 0.6055,
+        "mask_iou": 0.8083354299506602,
+        "fused_exact_acc": 0.6985
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9466666666666667,
+        "diam_mae_mm": 0.38338464872278394,
+        "len_mae_mm": 2.751994563408024,
+        "system_acc": 0.7277227722772277,
+        "type_acc": 0.8184818481848185,
+        "exact_acc": 0.6841666666666667,
+        "mask_iou": 0.7302521518319485,
+        "fused_exact_acc": 0.7216666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.871,
+        "diam_mae_mm": 0.33226949084888807,
+        "len_mae_mm": 2.530643451575077,
+        "system_acc": 0.7454545454545455,
+        "type_acc": 0.8,
+        "exact_acc": 0.622,
+        "mask_iou": 0.6531196014917524,
+        "fused_exact_acc": 0.652
+      },
+      "data/train_web": {
+        "bolt_acc": 0.95,
+        "diam_mae_mm": 0.46046826595396506,
+        "len_mae_mm": 4.806395117692121,
+        "system_acc": 0.5170603674540682,
+        "type_acc": 0.48556430446194226,
+        "exact_acc": 0.29615384615384616,
+        "mask_iou": 0.7692350035838658,
+        "fused_exact_acc": 0.2692307692307692
+      }
+    },
+    "elapsed_s": 3567.8279122500026
+  },
+  {
+    "epoch": 17,
+    "loss": 1.7636170223355294,
+    "score": 0.5792467948717949,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9915,
+        "diam_mae_mm": 0.2691104491949081,
+        "len_mae_mm": 1.7991354973316194,
+        "system_acc": 0.8255,
+        "type_acc": 0.9285,
+        "exact_acc": 0.589,
+        "mask_iou": 0.8120372916690908,
+        "fused_exact_acc": 0.6905
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9483333333333334,
+        "diam_mae_mm": 0.39332099480204064,
+        "len_mae_mm": 2.664015796711736,
+        "system_acc": 0.7095709570957096,
+        "type_acc": 0.8151815181518152,
+        "exact_acc": 0.6766666666666666,
+        "mask_iou": 0.7329413017316677,
+        "fused_exact_acc": 0.7033333333333334
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.875,
+        "diam_mae_mm": 0.3422384290984183,
+        "len_mae_mm": 2.5139835174637613,
+        "system_acc": 0.7494949494949495,
+        "type_acc": 0.8,
+        "exact_acc": 0.619,
+        "mask_iou": 0.6519947244353683,
+        "fused_exact_acc": 0.652
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9596153846153846,
+        "diam_mae_mm": 0.4810034847009213,
+        "len_mae_mm": 6.586911419245202,
+        "system_acc": 0.5091863517060368,
+        "type_acc": 0.4356955380577428,
+        "exact_acc": 0.27692307692307694,
+        "mask_iou": 0.780864662418125,
+        "fused_exact_acc": 0.27115384615384613
+      }
+    },
+    "elapsed_s": 3745.284983208003
+  },
+  {
+    "epoch": 18,
+    "loss": 1.741639394313097,
+    "score": 0.5811858974358974,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.995,
+        "diam_mae_mm": 0.2602928833961487,
+        "len_mae_mm": 1.7394576528072356,
+        "system_acc": 0.8275,
+        "type_acc": 0.928,
+        "exact_acc": 0.6095,
+        "mask_iou": 0.8146218899473963,
+        "fused_exact_acc": 0.703
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9475,
+        "diam_mae_mm": 0.3799151512655881,
+        "len_mae_mm": 2.609639663507443,
+        "system_acc": 0.7029702970297029,
+        "type_acc": 0.8234323432343235,
+        "exact_acc": 0.6675,
+        "mask_iou": 0.7364394833032606,
+        "fused_exact_acc": 0.7066666666666667
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.863,
+        "diam_mae_mm": 0.33011718663302336,
+        "len_mae_mm": 2.451920591219507,
+        "system_acc": 0.7393939393939394,
+        "type_acc": 0.8101010101010101,
+        "exact_acc": 0.615,
+        "mask_iou": 0.648556452976184,
+        "fused_exact_acc": 0.642
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9826923076923076,
+        "diam_mae_mm": 0.46591510672581793,
+        "len_mae_mm": 6.625167356075577,
+        "system_acc": 0.5406824146981627,
+        "type_acc": 0.49343832020997375,
+        "exact_acc": 0.27692307692307694,
+        "mask_iou": 0.7849184713727343,
+        "fused_exact_acc": 0.27307692307692305
+      }
+    },
+    "elapsed_s": 3924.9669843750016
+  },
+  {
+    "epoch": 19,
+    "loss": 1.7447665981948375,
+    "score": 0.5820192307692307,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.992,
+        "diam_mae_mm": 0.26247196209430695,
+        "len_mae_mm": 1.8572964687347413,
+        "system_acc": 0.8235,
+        "type_acc": 0.9285,
+        "exact_acc": 0.589,
+        "mask_iou": 0.8144024537527241,
+        "fused_exact_acc": 0.69
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.95,
+        "diam_mae_mm": 0.3802046492548272,
+        "len_mae_mm": 2.701303148427025,
+        "system_acc": 0.7062706270627063,
+        "type_acc": 0.8234323432343235,
+        "exact_acc": 0.6691666666666667,
+        "mask_iou": 0.7385586739766814,
+        "fused_exact_acc": 0.715
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.873,
+        "diam_mae_mm": 0.3291351877077661,
+        "len_mae_mm": 2.4745570105735704,
+        "system_acc": 0.7353535353535353,
+        "type_acc": 0.8080808080808081,
+        "exact_acc": 0.625,
+        "mask_iou": 0.6595821511753281,
+        "fused_exact_acc": 0.65
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9615384615384616,
+        "diam_mae_mm": 0.4628949390621636,
+        "len_mae_mm": 5.554584873629993,
+        "system_acc": 0.49868766404199477,
+        "type_acc": 0.5013123359580053,
+        "exact_acc": 0.2846153846153846,
+        "mask_iou": 0.778613316418967,
+        "fused_exact_acc": 0.27307692307692305
+      }
+    },
+    "elapsed_s": 4109.747655833002
+  },
+  {
+    "epoch": 20,
+    "loss": 1.7591086760163308,
+    "score": 0.5805576923076923,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.994,
+        "diam_mae_mm": 0.2808040441274643,
+        "len_mae_mm": 1.6943680951595306,
+        "system_acc": 0.8275,
+        "type_acc": 0.93,
+        "exact_acc": 0.626,
+        "mask_iou": 0.8103136980292656,
+        "fused_exact_acc": 0.706
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9491666666666667,
+        "diam_mae_mm": 0.38840912946380013,
+        "len_mae_mm": 2.560279407910388,
+        "system_acc": 0.698019801980198,
+        "type_acc": 0.8250825082508251,
+        "exact_acc": 0.6766666666666666,
+        "mask_iou": 0.733154586090285,
+        "fused_exact_acc": 0.705
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.87,
+        "diam_mae_mm": 0.33556817661632193,
+        "len_mae_mm": 2.4218483895966503,
+        "system_acc": 0.7313131313131314,
+        "type_acc": 0.804040404040404,
+        "exact_acc": 0.62,
+        "mask_iou": 0.6485532763717136,
+        "fused_exact_acc": 0.642
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9769230769230769,
+        "diam_mae_mm": 0.4426576922258993,
+        "len_mae_mm": 6.429559006778587,
+        "system_acc": 0.4435695538057743,
+        "type_acc": 0.4671916010498688,
+        "exact_acc": 0.27115384615384613,
+        "mask_iou": 0.7826392695665159,
+        "fused_exact_acc": 0.2692307692307692
+      }
+    },
+    "elapsed_s": 4297.326099916005
+  },
+  {
+    "epoch": 21,
+    "loss": 1.7220191717147828,
+    "score": 0.5814519230769231,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.995,
+        "diam_mae_mm": 0.26075658643245697,
+        "len_mae_mm": 1.731764620065689,
+        "system_acc": 0.827,
+        "type_acc": 0.9295,
+        "exact_acc": 0.6125,
+        "mask_iou": 0.8143772812924137,
+        "fused_exact_acc": 0.704
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9516666666666667,
+        "diam_mae_mm": 0.38462529127353884,
+        "len_mae_mm": 2.617870259993147,
+        "system_acc": 0.7029702970297029,
+        "type_acc": 0.8184818481848185,
+        "exact_acc": 0.6816666666666666,
+        "mask_iou": 0.7364526991587217,
+        "fused_exact_acc": 0.7075
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.871,
+        "diam_mae_mm": 0.3329022248586019,
+        "len_mae_mm": 2.423472365947685,
+        "system_acc": 0.7393939393939394,
+        "type_acc": 0.795959595959596,
+        "exact_acc": 0.617,
+        "mask_iou": 0.655961481395877,
+        "fused_exact_acc": 0.647
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9769230769230769,
+        "diam_mae_mm": 0.4565298989063173,
+        "len_mae_mm": 5.9846124423770455,
+        "system_acc": 0.4435695538057743,
+        "type_acc": 0.49081364829396323,
+        "exact_acc": 0.27692307692307694,
+        "mask_iou": 0.7795943330217097,
+        "fused_exact_acc": 0.2673076923076923
+      }
+    },
+    "elapsed_s": 4487.907784125004
+  },
+  {
+    "epoch": 22,
+    "loss": 1.7207571543753146,
+    "score": 0.5843108974358975,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.993,
+        "diam_mae_mm": 0.2577823745012283,
+        "len_mae_mm": 1.6698556084632874,
+        "system_acc": 0.8255,
+        "type_acc": 0.9295,
+        "exact_acc": 0.617,
+        "mask_iou": 0.8168462621307647,
+        "fused_exact_acc": 0.703
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.95,
+        "diam_mae_mm": 0.3904845986035791,
+        "len_mae_mm": 2.5489289013072605,
+        "system_acc": 0.7112211221122112,
+        "type_acc": 0.8316831683168316,
+        "exact_acc": 0.6858333333333333,
+        "mask_iou": 0.7398566732554855,
+        "fused_exact_acc": 0.7141666666666666
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.872,
+        "diam_mae_mm": 0.3433364897063284,
+        "len_mae_mm": 2.383863513638275,
+        "system_acc": 0.7373737373737373,
+        "type_acc": 0.797979797979798,
+        "exact_acc": 0.611,
+        "mask_iou": 0.6610667406291121,
+        "fused_exact_acc": 0.647
+      },
+      "data/train_web": {
+        "bolt_acc": 0.975,
+        "diam_mae_mm": 0.4770702752541369,
+        "len_mae_mm": 6.1498435363369035,
+        "system_acc": 0.4566929133858268,
+        "type_acc": 0.43832020997375326,
+        "exact_acc": 0.27884615384615385,
+        "mask_iou": 0.7788344611530594,
+        "fused_exact_acc": 0.27307692307692305
+      }
+    },
+    "elapsed_s": 4681.872770125003
+  },
+  {
+    "epoch": 23,
+    "loss": 1.7233049154281617,
+    "score": 0.5818044871794872,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.992,
+        "diam_mae_mm": 0.28377471578121183,
+        "len_mae_mm": 1.6568543062210084,
+        "system_acc": 0.83,
+        "type_acc": 0.9315,
+        "exact_acc": 0.6165,
+        "mask_iou": 0.8171282701696693,
+        "fused_exact_acc": 0.701
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.95,
+        "diam_mae_mm": 0.4163738217684302,
+        "len_mae_mm": 2.5239251549094424,
+        "system_acc": 0.7145214521452146,
+        "type_acc": 0.8217821782178217,
+        "exact_acc": 0.6758333333333333,
+        "mask_iou": 0.7408409726176315,
+        "fused_exact_acc": 0.7108333333333333
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.874,
+        "diam_mae_mm": 0.3674078613820702,
+        "len_mae_mm": 2.384406648501001,
+        "system_acc": 0.7434343434343434,
+        "type_acc": 0.8,
+        "exact_acc": 0.628,
+        "mask_iou": 0.6629273726442495,
+        "fused_exact_acc": 0.65
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9692307692307692,
+        "diam_mae_mm": 0.553940172270527,
+        "len_mae_mm": 6.734133963196922,
+        "system_acc": 0.48293963254593175,
+        "type_acc": 0.4330708661417323,
+        "exact_acc": 0.2692307692307692,
+        "mask_iou": 0.7775748083057765,
+        "fused_exact_acc": 0.2653846153846154
+      }
+    },
+    "elapsed_s": 4872.700664791002
+  },
+  {
+    "epoch": 24,
+    "loss": 1.6796248245984315,
+    "score": 0.5839134615384616,
+    "metrics": {
+      "data/synth": {
+        "bolt_acc": 0.9935,
+        "diam_mae_mm": 0.25654051065444944,
+        "len_mae_mm": 1.6363504912853242,
+        "system_acc": 0.825,
+        "type_acc": 0.9285,
+        "exact_acc": 0.6305,
+        "mask_iou": 0.817710870094055,
+        "fused_exact_acc": 0.7
+      },
+      "data/synth_mix": {
+        "bolt_acc": 0.9483333333333334,
+        "diam_mae_mm": 0.38717782261348005,
+        "len_mae_mm": 2.5620711077951364,
+        "system_acc": 0.7178217821782178,
+        "type_acc": 0.8250825082508251,
+        "exact_acc": 0.6833333333333333,
+        "mask_iou": 0.7413124491715465,
+        "fused_exact_acc": 0.7125
+      },
+      "data/synth_junk": {
+        "bolt_acc": 0.871,
+        "diam_mae_mm": 0.33870363235473633,
+        "len_mae_mm": 2.3574186652597753,
+        "system_acc": 0.7474747474747475,
+        "type_acc": 0.8101010101010101,
+        "exact_acc": 0.635,
+        "mask_iou": 0.6611488308288926,
+        "fused_exact_acc": 0.652
+      },
+      "data/train_web": {
+        "bolt_acc": 0.9769230769230769,
+        "diam_mae_mm": 0.476708743828801,
+        "len_mae_mm": 6.048761347773194,
+        "system_acc": 0.49343832020997375,
+        "type_acc": 0.46194225721784776,
+        "exact_acc": 0.27692307692307694,
+        "mask_iou": 0.7795403032560762,
+        "fused_exact_acc": 0.27115384615384613
+      }
+    },
+    "elapsed_s": 5074.5369530000025
+  }
+]

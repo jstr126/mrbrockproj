@@ -1,0 +1,330 @@
+{
+  "data/test_catalog_normal": {
+    "n": 281,
+    "models": {
+      "boltnet": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 215,
+        "neg_rejected": 55,
+        "neg_in_size": 0,
+        "size": 177,
+        "size_right": 117,
+        "bolt_size_right": 117,
+        "review": 42,
+        "exact": 131,
+        "board_found": 280,
+        "neg_not_bolt": 55,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 215,
+        "neg_rejected": 55,
+        "neg_in_size": 0,
+        "size": 108,
+        "size_right": 90,
+        "bolt_size_right": 90,
+        "review": 113,
+        "exact": 144,
+        "board_found": 280,
+        "neg_not_bolt": 55,
+        "outline_missing": 5,
+        "disagreement": 93,
+        "pitch_used": 57,
+        "pitch_correct": 56
+      }
+    }
+  },
+  "data/test_catalog_heavy": {
+    "n": 281,
+    "models": {
+      "boltnet": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 202,
+        "neg_rejected": 44,
+        "neg_in_size": 0,
+        "size": 66,
+        "size_right": 26,
+        "bolt_size_right": 26,
+        "review": 160,
+        "exact": 51,
+        "board_found": 270,
+        "neg_not_bolt": 47,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 225,
+        "neg_n": 56,
+        "bolt_kept": 196,
+        "neg_rejected": 46,
+        "neg_in_size": 0,
+        "size": 29,
+        "size_right": 17,
+        "bolt_size_right": 17,
+        "review": 196,
+        "exact": 52,
+        "board_found": 270,
+        "neg_not_bolt": 47,
+        "outline_missing": 27,
+        "disagreement": 107,
+        "pitch_used": 6,
+        "pitch_correct": 6
+      }
+    }
+  },
+  "data/test_junk_normal": {
+    "n": 200,
+    "models": {
+      "boltnet": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 146,
+        "neg_in_size": 19,
+        "size": 19,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 35,
+        "exact": 0,
+        "board_found": 194,
+        "neg_not_bolt": 156,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 147,
+        "neg_in_size": 4,
+        "size": 4,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 49,
+        "exact": 0,
+        "board_found": 194,
+        "neg_not_bolt": 157,
+        "outline_missing": 10,
+        "disagreement": 17,
+        "pitch_used": 4,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_junk_heavy": {
+    "n": 200,
+    "models": {
+      "boltnet": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 80,
+        "neg_in_size": 8,
+        "size": 8,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 112,
+        "exact": 0,
+        "board_found": 189,
+        "neg_not_bolt": 95,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 200,
+        "bolt_kept": 0,
+        "neg_rejected": 79,
+        "neg_in_size": 4,
+        "size": 4,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 117,
+        "exact": 0,
+        "board_found": 189,
+        "neg_not_bolt": 100,
+        "outline_missing": 27,
+        "disagreement": 50,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_ai_normal": {
+    "n": 45,
+    "models": {
+      "boltnet": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 41,
+        "neg_in_size": 1,
+        "size": 1,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 3,
+        "exact": 0,
+        "board_found": 43,
+        "neg_not_bolt": 41,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 30,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 15,
+        "exact": 0,
+        "board_found": 43,
+        "neg_not_bolt": 33,
+        "outline_missing": 1,
+        "disagreement": 9,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_ai_heavy": {
+    "n": 45,
+    "models": {
+      "boltnet": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 34,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 11,
+        "exact": 0,
+        "board_found": 44,
+        "neg_not_bolt": 38,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 0,
+        "neg_n": 45,
+        "bolt_kept": 0,
+        "neg_rejected": 15,
+        "neg_in_size": 0,
+        "size": 0,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 30,
+        "exact": 0,
+        "board_found": 44,
+        "neg_not_bolt": 26,
+        "outline_missing": 1,
+        "disagreement": 16,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      }
+    }
+  },
+  "data/test_webhold_normal": {
+    "n": 295,
+    "models": {
+      "boltnet": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 37,
+        "neg_rejected": 152,
+        "neg_in_size": 6,
+        "size": 27,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 42,
+        "exact": 0,
+        "board_found": 287,
+        "neg_not_bolt": 160,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 92,
+        "neg_rejected": 143,
+        "neg_in_size": 0,
+        "size": 6,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 129,
+        "exact": 1,
+        "board_found": 287,
+        "neg_not_bolt": 151,
+        "outline_missing": 13,
+        "disagreement": 83,
+        "pitch_used": 2,
+        "pitch_correct": 2
+      }
+    }
+  },
+  "data/test_webhold_heavy": {
+    "n": 295,
+    "models": {
+      "boltnet": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 49,
+        "neg_rejected": 136,
+        "neg_in_size": 1,
+        "size": 10,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 95,
+        "exact": 0,
+        "board_found": 286,
+        "neg_not_bolt": 143,
+        "outline_missing": 0,
+        "disagreement": 0,
+        "pitch_used": 0,
+        "pitch_correct": 0
+      },
+      "boltnet_v3": {
+        "bolt_n": 120,
+        "neg_n": 175,
+        "bolt_kept": 93,
+        "neg_rejected": 124,
+        "neg_in_size": 0,
+        "size": 2,
+        "size_right": 0,
+        "bolt_size_right": 0,
+        "review": 152,
+        "exact": 1,
+        "board_found": 286,
+        "neg_not_bolt": 142,
+        "outline_missing": 25,
+        "disagreement": 81,
+        "pitch_used": 2,
+        "pitch_correct": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "passed": false,
+  "checks": {
+    "test_catalog_normal: fully right": true,
+    "test_catalog_normal: correct-bin coverage": false,
+    "test_catalog_normal: bin precision": true,
+    "test_catalog_normal: at least 99% of automatic size-bin assignments correct": false,
+    "test_catalog_heavy: fully right": true,
+    "test_catalog_heavy: correct-bin coverage": false,
+    "test_catalog_heavy: bin precision": true,
+    "test_catalog_heavy: at least 99% of automatic size-bin assignments correct": false,
+    "test_junk_normal: rejection": true,
+    "test_junk_normal: no extra size-bin errors": true,
+    "test_junk_heavy: rejection": false,
+    "test_junk_heavy: no extra size-bin errors": true,
+    "test_ai_normal: rejection": false,
+    "test_ai_normal: no extra size-bin errors": true,
+    "test_ai_heavy: rejection": false,
+    "test_ai_heavy: no extra size-bin errors": true,
+    "test_webhold_normal: recognition improves by at least 5 points": true,
+    "test_webhold_normal: at least 99% of automatic size-bin assignments correct": false,
+    "test_webhold_heavy: recognition improves by at least 5 points": true,
+    "test_webhold_heavy: at least 99% of automatic size-bin assignments correct": false,
+    "test_catalog_normal: mean and p95 below 100 ms": true,
+    "test_catalog_heavy: mean and p95 below 100 ms": true,
+    "test_junk_normal: mean and p95 below 100 ms": true,
+    "test_junk_heavy: mean and p95 below 100 ms": true,
+    "test_ai_normal: mean and p95 below 100 ms": true,
+    "test_ai_heavy: mean and p95 below 100 ms": true,
+    "test_webhold_normal: mean and p95 below 100 ms": true,
+    "test_webhold_heavy: mean and p95 below 100 ms": true
+  }
+}

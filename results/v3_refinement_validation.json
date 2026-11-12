@@ -1,0 +1,206 @@
+{
+  "provenance": {
+    "validation_keys_sha256": "4f5550cdb7945ca5dcaaad890a7b3290306eaa8f84ebec67c995b89222303b0c",
+    "model_sha256": "4f80b07a8fa231e5a9f91db143eda7f5f580c8fc9f3de3efdaeca6cbb475b2b8",
+    "records": 4720,
+    "cache_sha256": "96f7b1e3d0c0b8d5388eb1e928bf0f15370e611ad755fe468231354662f52cf2"
+  },
+  "development_score": 0.7176591944185505,
+  "proposal": {
+    "gain": [
+      1.0270777510081903,
+      0.9987021260617395
+    ],
+    "offset": [
+      -0.39623826353674413,
+      -0.12293611145013643
+    ],
+    "regression_gain": [
+      0.9930219954808138,
+      0.9942570151739251
+    ],
+    "regression_offset": [
+      0.05878810373145147,
+      -0.10051292571787639
+    ],
+    "fusion_weights": [
+      0.25,
+      0.7
+    ],
+    "n": 2322,
+    "standard_evidence": {
+      "diameter_sigma": 0.4,
+      "length_sigma": 1.2,
+      "prior_weight": 2.0
+    },
+    "provenance": {
+      "validation_keys_sha256": "4f5550cdb7945ca5dcaaad890a7b3290306eaa8f84ebec67c995b89222303b0c",
+      "model_sha256": "4f80b07a8fa231e5a9f91db143eda7f5f580c8fc9f3de3efdaeca6cbb475b2b8",
+      "records": 4720,
+      "cache_sha256": "96f7b1e3d0c0b8d5388eb1e928bf0f15370e611ad755fe468231354662f52cf2"
+    },
+    "split": "synthetic fixed validation; hash 4/5 fit and parameter selection",
+    "qualification": "development only; model selection previously saw this validation partition; no 99% or physical qualification"
+  },
+  "baseline_audit": {
+    "mean_exact": 0.6918339883954534,
+    "by_folder": {
+      "data/synth": {
+        "n": 413,
+        "exact": 275,
+        "bolts": 413,
+        "bolt_exact": 275,
+        "exact_acc": 0.6658595641646489,
+        "bolt_exact_acc": 0.6658595641646489,
+        "diameter_mae_mm": 0.23505064127072686,
+        "length_mae_mm": 1.3666152557519866
+      },
+      "data/synth_mix": {
+        "n": 261,
+        "exact": 206,
+        "bolts": 123,
+        "bolt_exact": 70,
+        "exact_acc": 0.789272030651341,
+        "bolt_exact_acc": 0.5691056910569106,
+        "diameter_mae_mm": 0.3904930748944502,
+        "length_mae_mm": 2.466339406525629
+      },
+      "data/synth_junk": {
+        "n": 216,
+        "exact": 134,
+        "bolts": 96,
+        "bolt_exact": 37,
+        "exact_acc": 0.6203703703703703,
+        "bolt_exact_acc": 0.3854166666666667,
+        "diameter_mae_mm": 0.3929111009968915,
+        "length_mae_mm": 2.3994501378053177
+      }
+    }
+  },
+  "proposed_audit": {
+    "mean_exact": 0.7210047395367871,
+    "by_folder": {
+      "data/synth": {
+        "n": 413,
+        "exact": 300,
+        "bolts": 413,
+        "bolt_exact": 300,
+        "exact_acc": 0.7263922518159807,
+        "bolt_exact_acc": 0.7263922518159807,
+        "diameter_mae_mm": 0.235489816335989,
+        "length_mae_mm": 1.2871947707958633
+      },
+      "data/synth_mix": {
+        "n": 261,
+        "exact": 207,
+        "bolts": 123,
+        "bolt_exact": 71,
+        "exact_acc": 0.7931034482758621,
+        "bolt_exact_acc": 0.5772357723577236,
+        "diameter_mae_mm": 0.39025151055267215,
+        "length_mae_mm": 2.456743834372183
+      },
+      "data/synth_junk": {
+        "n": 216,
+        "exact": 139,
+        "bolts": 96,
+        "bolt_exact": 42,
+        "exact_acc": 0.6435185185185185,
+        "bolt_exact_acc": 0.4375,
+        "diameter_mae_mm": 0.39262946389931513,
+        "length_mae_mm": 2.4145332909282495
+      }
+    }
+  },
+  "baseline_all_validation": {
+    "mean_exact": 0.585349358974359,
+    "by_folder": {
+      "data/synth": {
+        "n": 2000,
+        "exact": 1397,
+        "bolts": 2000,
+        "bolt_exact": 1397,
+        "exact_acc": 0.6985,
+        "bolt_exact_acc": 0.6985,
+        "diameter_mae_mm": 0.24160036061766296,
+        "length_mae_mm": 1.281250865231713
+      },
+      "data/synth_mix": {
+        "n": 1200,
+        "exact": 866,
+        "bolts": 606,
+        "bolt_exact": 304,
+        "exact_acc": 0.7216666666666667,
+        "bolt_exact_acc": 0.5016501650165016,
+        "diameter_mae_mm": 0.3670458873195535,
+        "length_mae_mm": 2.2299089346657044
+      },
+      "data/synth_junk": {
+        "n": 1000,
+        "exact": 652,
+        "bolts": 495,
+        "bolt_exact": 250,
+        "exact_acc": 0.652,
+        "bolt_exact_acc": 0.5050505050505051,
+        "diameter_mae_mm": 0.308887881004245,
+        "length_mae_mm": 2.10417543050666
+      },
+      "data/train_web": {
+        "n": 520,
+        "exact": 140,
+        "bolts": 381,
+        "bolt_exact": 1,
+        "exact_acc": 0.2692307692307692,
+        "bolt_exact_acc": 0.0026246719160104987,
+        "diameter_mae_mm": 0.4020210354054276,
+        "length_mae_mm": 6.709040868791036
+      }
+    }
+  },
+  "proposed_all_validation": {
+    "mean_exact": 0.6061826923076923,
+    "by_folder": {
+      "data/synth": {
+        "n": 2000,
+        "exact": 1495,
+        "bolts": 2000,
+        "bolt_exact": 1495,
+        "exact_acc": 0.7475,
+        "bolt_exact_acc": 0.7475,
+        "diameter_mae_mm": 0.24176968387633876,
+        "length_mae_mm": 1.2183827483849852
+      },
+      "data/synth_mix": {
+        "n": 1200,
+        "exact": 888,
+        "bolts": 606,
+        "bolt_exact": 326,
+        "exact_acc": 0.74,
+        "bolt_exact_acc": 0.5379537953795379,
+        "diameter_mae_mm": 0.36729438083630017,
+        "length_mae_mm": 2.2443292330778686
+      },
+      "data/synth_junk": {
+        "n": 1000,
+        "exact": 668,
+        "bolts": 495,
+        "bolt_exact": 266,
+        "exact_acc": 0.668,
+        "bolt_exact_acc": 0.5373737373737374,
+        "diameter_mae_mm": 0.3088845549121977,
+        "length_mae_mm": 2.127916032491854
+      },
+      "data/train_web": {
+        "n": 520,
+        "exact": 140,
+        "bolts": 381,
+        "bolt_exact": 1,
+        "exact_acc": 0.2692307692307692,
+        "bolt_exact_acc": 0.0026246719160104987,
+        "diameter_mae_mm": 0.39908448757335185,
+        "length_mae_mm": 7.391227247572172
+      }
+    }
+  },
+  "audit_note": "890 synthetic validation frames; model selection previously used this partition. These are development diagnostics, not an independent acceptance trial. Photo sources remain grouped; none entered the synthetic audit."
+}
