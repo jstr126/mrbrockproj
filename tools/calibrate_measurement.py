@@ -47,7 +47,7 @@ def fit_fusion(geometry, regression, truth):
 def calibrate(model_path, ckpt_path, limit=0):
     # Import training dependencies here, never from the Pi runtime.
     import torch
-    from train import split, exposure_keys
+    from train import split, exposure_keys, initializer_sources
     ckpt = torch.load(ckpt_path, map_location='cpu')
     args = ckpt.get('args', {})
     folders = args.get('data', ckpt.get('data', []))
@@ -59,9 +59,10 @@ def calibrate(model_path, ckpt_path, limit=0):
     sizer = BoltSizer(str(model_path), threads=2)
     measured, truth, regression, provenance = [], [], [], []
     validation_keys = set()
+    seen = initializer_sources(args.get('init'))
     for folder in folders:
         grouped = folder.rstrip('/') in [p.rstrip('/') for p in args.get('split_by_object', ['data/real'])]
-        _, val = split(folder, args.get('val_frac', .1), seed=0, by_object=grouped)
+        _, val = split(folder, args.get('val_frac', .1), seed=0, by_object=grouped, seen=seen)
         validation_keys.update(exposure_keys([val]))
         indices = val.indices[:limit] if limit else val.indices
         for i in indices:

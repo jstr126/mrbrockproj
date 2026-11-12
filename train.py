@@ -60,6 +60,14 @@ def split(folder, val_frac, seed, by_object=False, seen=frozenset()):
     return Subset(full, train), Subset(FolderDataset(folder, train=False), val)
 
 
+def initializer_sources(init):
+    """Photo/object sources a checkpoint trained on; they stay out of validation."""
+    if not init:
+        return frozenset()
+    keys = torch.load(init, map_location="cpu", weights_only=False).get("training_keys", [])
+    return frozenset(k[len("source:"):] for k in keys if k.startswith("source:"))
+
+
 def exposure_keys(subsets):
     """Track images and whole photo/object sources across training stages."""
     keys = set()
@@ -243,10 +251,7 @@ def main():
     np.random.seed(a.seed)
     cv2.setNumThreads(1)
 
-    seen = frozenset()
-    if a.init:
-        keys = torch.load(a.init, map_location="cpu", weights_only=False).get("training_keys", [])
-        seen = frozenset(k[len("source:"):] for k in keys if k.startswith("source:"))
+    seen = initializer_sources(a.init)
     trains, vals = zip(*(split(f, a.val_frac, seed=0, by_object=f.rstrip("/") in
                                [g.rstrip("/") for g in a.split_by_object], seen=seen) for f in a.data))
     train_ds = ConcatDataset(trains)
